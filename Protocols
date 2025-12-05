@@ -1,0 +1,28 @@
+TCP/IP Suite Protocols (Brief Guide)
+The TCP/IP suite is the foundation of how data travels across networks like the internet. Each protocol has a specific job in moving information between devices.
+
+• TCP (Transmission Control Protocol)
+This ensures reliable communication. It checks for errors, sends lost data again, and delivers packets in the correct order. It is used when accuracy is important—for example, web browsing, emails, file transfers.
+
+• UDP (User Datagram Protocol)
+This is faster but does not guarantee delivery or order. There are no retransmissions or heavy checks, so it is used for activities where speed matters more than perfection—such as video streaming, online gaming, and voice calls.
+
+• IP (Internet Protocol)
+This handles addressing and routing. It decides where packets need to go and how they reach the destination across different networks. IP is like the delivery system that ensures every packet knows the correct address.
+
+• ICMP (Internet Control Message Protocol)
+This is used for error reporting and diagnostics. The well-known “ping” command works using ICMP. It helps check connectivity and network issues.
+
+Common Application Layer Protocols (Purpose & Usage)
+
+• HTTP (HyperText Transfer Protocol)
+This is used to load web pages. It is not encrypted, so information can be seen if intercepted. Suitable for general web browsing without sensitive data.
+
+• HTTPS (HyperText Transfer Protocol Secure)
+This is the secure version of HTTP. It uses encryption (SSL/TLS) to protect data. Used for banking, login pages, online payments, and any site that needs privacy and security.
+
+• DNS (Domain Name System)
+This converts domain names into IP addresses. When you type google.com, DNS finds the IP so your device knows where to connect. It acts like a phonebook for the internet.
+
+• FTP (File Transfer Protocol)
+This is used to upload and download files between computers. It is common in managing website files, backups, and data transfers. Plain FTP is not secure, so secure versions like SFTP or FTPS are often preferred.
