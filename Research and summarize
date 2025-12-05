@@ -1,0 +1,14 @@
+| Feature            | TCP (Connection-Oriented)                                                                       | UDP (Connectionless)                                              |
+| ------------------ | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Connection**     | Establishes a connection before data transfer (handshake).                                      | No connection is established; data is sent directly.              |
+| **Reliability**    | Reliable; ensures data is delivered correctly and in order.                                     | Unreliable; no guarantee that data arrives or is in order.        |
+| **Error Checking** | Performs error detection and retransmission.                                                    | Minimal error checking; corrupted packets may be lost.            |
+| **Flow Control**   | Yes, manages data flow to prevent congestion.                                                   | No flow control.                                                  |
+| **Speed**          | Slower due to connection setup and reliability mechanisms.                                      | Faster due to minimal overhead.                                   |
+| **Use Cases**      | Applications needing reliability, e.g., web browsing (HTTP), email (SMTP), file transfer (FTP). | Applications needing speed, e.g., streaming, online gaming, VoIP. |
+| **Data Structure** | Stream-oriented (continuous stream of data).                                                    | Message-oriented (individual packets).                            |
+
+
+TCP = reliable, connection-oriented, slower, good for accuracy.
+
+UDP = fast, connectionless, no guarantee of delivery, good for real-time apps.
