@@ -1,0 +1,10 @@
+| Feature             | OSI Model                     | TCP/IP Model                      |
+| ------------------- | ----------------------------- | --------------------------------- |
+| Layers              | 7                             | 4                                 |
+| Use                 | Conceptual, teaching & design | Practical, real-world Internet    |
+| Development         | ISO standard                  | Department of Defense (DoD)       |
+| Layer Functions     | Separate layers for all tasks | Some layers combined              |
+| Application Layer   | Only interacts with software  | Includes Presentation & Session   |
+| Transport Protocols | TCP & UDP                     | TCP & UDP                         |
+| Real-world Usage    | Rarely implemented fully      | Fully implemented on the Internet |
+| Approach            | Vertical, theoretical         | Practical, functional             |
