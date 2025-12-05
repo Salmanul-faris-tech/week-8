@@ -1,0 +1,31 @@
+Functionalities of Routers, Switches, and Hubs
+
+Router
+
+Function: Connects different networks (e.g., home network to the internet), directs traffic between them, and assigns IP addresses (via DHCP).
+
+Security Role: Can filter traffic using firewalls, block malicious traffic, and manage VPNs. Provides NAT (Network Address Translation) to hide internal IP addresses.
+
+Switch
+
+Function: Connects devices within the same network (LAN) and forwards data only to the intended device using MAC addresses.
+
+Security Role: More secure than hubs because it reduces unnecessary data exposure. Supports VLANs to segment networks and limit access.
+
+Hub
+
+Function: Basic device connecting multiple devices in a network. Broadcasts all incoming data to every connected device.
+
+Security Role: Least secure because it exposes all traffic to all devices. Easy for attackers to sniff data.
+
+| Device     | Security Strengths                                               | Security Weaknesses                                                         |
+| ---------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Router** | Firewall capabilities, NAT, VPN support, controls network access | Misconfigured routers can expose networks; default passwords are vulnerable |
+| **Switch** | Reduces unnecessary data exposure, supports VLANs                | Still vulnerable to attacks like MAC flooding, ARP spoofing                 |
+| **Hub**    | Very simple, no configuration needed                             | Broadcasts all traffic; easy for attackers to intercept data                |
+
+Routers → Network gateway, firewall, NAT, moderate security.
+
+Switches → Efficient LAN traffic management, supports segmentation (VLANs), secure than hubs.
+
+Hubs → Simple and outdated, highly insecure because they broadcast everything.
