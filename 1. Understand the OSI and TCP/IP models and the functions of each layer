@@ -1,0 +1,121 @@
+✅ OSI Model (7 Layers) – Brief Explanation
+
+The OSI Model is a theoretical model that explains how data travels from one device to another through 7 layers.
+
+1. Application Layer
+
+Closest to the user.
+
+Provides services like browser (HTTP), email (SMTP), file transfer (FTP).
+
+Generates data for transmission.
+
+2. Presentation Layer
+
+Converts data into a format that both systems understand.
+
+Handles: Encryption, Decryption, Compression, Encoding.
+
+3. Session Layer
+
+Manages sessions (connections) between devices.
+
+Establishes, maintains, and ends communication sessions.
+
+4. Transport Layer
+
+Breaks data into segments.
+
+Provides reliable communication using TCP or faster communication using UDP.
+
+Does flow control and error control.
+
+5. Network Layer
+
+Handles IP addressing and routing.
+
+Decides the best path for data to reach destination (routers work here).
+
+6. Data Link Layer
+
+Breaks packets into frames.
+
+Uses MAC addresses.
+
+Provides error detection for frame-level data.
+
+Example: switches operate here.
+
+7. Physical Layer
+
+Transfers actual bits (0s and 1s) over cables or wireless signals.
+
+Hardware: cables, hubs, electrical signals.
+
+✅ TCP/IP Model (4 Layers) – Brief Explanation
+
+The TCP/IP model is the practical model used in real-world networking (Internet).
+
+1. Application Layer
+
+Combines OSI layers 5, 6, and 7.
+
+Provides application services:
+
+HTTP / HTTPS
+
+DNS
+
+FTP
+
+SMTP / POP3
+
+Where the data starts.
+
+2. Transport Layer
+
+Uses TCP or UDP.
+
+Responsible for:
+
+Segmentation
+
+Flow control
+
+Error correction
+
+Reliable or fast delivery
+
+3. Internet Layer
+
+Same as OSI Network Layer.
+
+Responsible for:
+
+IP addressing
+
+Routing
+
+Packet forwarding
+
+4. Network Access Layer
+
+Combines OSI layers 1 and 2.
+
+Deals with:
+
+MAC addresses
+
+Physical transmission
+
+Frames and bits
+
+| **OSI Layer** | **TCP/IP Layer** |
+| ------------- | ---------------- |
+| Application   | Application      |
+| Presentation  | Application      |
+| Session       | Application      |
+| Transport     | Transport        |
+| Network       | Internet         |
+| Data Link     | Network Access   |
+| Physical      | Network Access   |
